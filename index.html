@@ -72,7 +72,7 @@
         <div class="subheading mb-5">
           <a href="mailto:name@email.com">kweerasiri2@gmail.com</a>
         </div>
-        <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+        <p class="lead mb-5">I am a computer science major interested in software engineering and web development</p>
         <div class="social-icons">
           <a href="#">
             <i class="fab fa-linkedin-in"></i>
@@ -146,9 +146,20 @@
     
     <hr class="m-0">
     
+    
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects"> 
       <div class="w-100">
         <h2 class="mb-5">Projects</h2>
+        <div class="template resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Web Design Intern</h3>
+            <div class="subheading mb-3">Shout! Media Productions</div>
+            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2008 - June 2010</span>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -300,6 +311,16 @@
   <script>
     document.querySelector("#about h1 #firstName").textContent = profile["firstName"];
     document.querySelector("#about h1 .text-primary").textContent = profile["lastName"];
+    for(let project of profile.projects) {
+      let clone = document.querySelector("div.template").cloneNode(true);
+      clone.classList.remove("template");
+      console.log(clone);
+      clone.querySelector("h3.mb-0").textContent = project.name;
+      clone.querySelector("div.subheading").textContent = project.technologies;
+      clone.querySelector("p").textContent = project.projectURL;
+      document.querySelector("section#projects h2.mb-5").appendChild(clone);
+      //document.querySelector("body").appendChild(clone);
+    }
   </script>
 </body>
 

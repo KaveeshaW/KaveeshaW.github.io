@@ -17,6 +17,10 @@ body {
   }
 }
 
+.template {
+  display = none;
+}
+
 h1,
 h2,
 h3,
