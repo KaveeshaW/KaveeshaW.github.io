@@ -293,10 +293,10 @@
       clone.classList.remove("template");
       console.log(clone);
       clone.querySelector("h3.mb-0").textContent = project.name;
-      clone.querySelector("div.subheading").textContent = project.projectURL;
-      clone.querySelector("p").textContent = project.repoURL;
+      clone.querySelector("div.subheading").textContent = project.repoURL;
+      clone.querySelector("p").textContent = project.description;
+      clone.querySelector("span.text-primary").textContent = project.date;
       document.querySelector("section#projects h2.mb-5").appendChild(clone);
-      //document.querySelector("body").appendChild(clone);
     }
   </script>
 </body>
