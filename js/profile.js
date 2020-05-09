@@ -14,7 +14,7 @@ let profile = {
      description: "A project that plots coronavirus data",
      projectURL: "https://kaveeshaw.github.io/it202-project4/",
      repoURL: "https://github.com/KaveeshaW/it202-project4",
-     date: "March 2020 to April 2020"},
+     date: "March 2020 - April 2020"},
     {name: "Side Scrolling Game",
      technologies: "HTML, CSS, JS, Canvas",
      description: "Tom and Jerry inspired",
@@ -26,7 +26,7 @@ let profile = {
      description: "Player traverses through space, then a castle and faces different puzzle challenges as well as a boss",
      projectURL: "not defined",
      repoURL: "https://github.com/KaveeshaW/InvadersOfTheVoid",
-     date: "Feburary 2020 to April 2020"
+     date: "Feburary 2020 - April 2020"
     }
    ]
 }
