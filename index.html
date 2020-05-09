@@ -295,9 +295,11 @@
       clone.querySelector("h3.mb-0").textContent = project.name;
       clone.querySelector("div.subheading").textContent = project.repoURL;
       clone.querySelector("p").textContent = project.description;
-      clone.querySelector("span.text-primary").textContent = project.date;
+      clone.querySelector("span.text-primary").textContent = project["date"];
       document.querySelector("section#projects h2.mb-5").appendChild(clone);
     }
+    
+    
   </script>
 </body>
 
