@@ -34,23 +34,30 @@ let profile = {
   ],
   //add projects by adding more objects
   projects: [
-    {name: "Covid-19 PWA",
+    {
+     name: "Covid-19 PWA",
      technologies: `HTML, CSS, JS, api from https://pomber.github.io/covid19/timeseries.json and
      https://api.openweathermap.org/data/2.5/weather`,
+     course_name: "IT 202",
      description: "A project that plots coronavirus data and gets weather from your current location",
      projectURL: "https://kaveeshaw.github.io/it202-big-project/",
      repoURL: "https://github.com/KaveeshaW/it202-big-project",
-     date: "March 2020 - April 2020"},
-    {name: "Side Scrolling Game",
+     date: "March 2020 - April 2020"
+    },
+    {
+     name: "Side Scrolling Game",
      technologies: "HTML, CSS, JS, Canvas",
+     course_name: "IT 202",
      description: "Tom and Jerry inspired",
      projectURL: "https://kaveeshaw.github.io/it202-project3/",
      repoURL: "https://github.com/KaveeshaW/it202-project3",
-     date: "March 2020"},
-    {name: "Invaders Of The Void",
+     date: "March 2020"
+    },
+    {
+     name: "Invaders Of The Void",
      technologies: "C#, Unity",
      description: "Player traverses through space, then a castle and faces different puzzle challenges as well as a boss",
-     projectURL: "not defined",
+     projectURL: "https://docs.google.com/presentation/d/1M7LEUq141K1vqccc_RIqIHXfv5nk3ExODWBRMv8kpWc/edit#slide=id.g744df01c18_0_10",
      repoURL: "https://github.com/KaveeshaW/InvadersOfTheVoid",
      date: "Feburary 2020 - April 2020"
     }
