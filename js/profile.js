@@ -1,10 +1,12 @@
 let profile = {
   firstName: "Kaveesha",
   lastName: "Weerasiri",
-  experience: [
+  education: [
     {
-      name: "Coding Languages",
-      pr: ""
+      school_name: "University of Illinois at Chicago",
+      degree: "Bachelor of Science in Computer Science",
+      expectedGraduation: "May 2021",
+      gpa: 3.77
     }
   ],
   //add projects by adding more objects

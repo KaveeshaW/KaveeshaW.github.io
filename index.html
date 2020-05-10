@@ -114,7 +114,7 @@
         <div class="template resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
             <h3 class="mb-0"></h3>
-            <div class="subheading mb-3"></div>
+            <a class="subheading mb-3"></a>
             <p></p>
           </div>
           <div class="resume-date text-md-right">
@@ -131,15 +131,14 @@
       <div class="w-100">
         <h2 class="mb-5">Education</h2>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="template resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">University of Colorado Boulder</h3>
-            <div class="subheading mb-3">Bachelor of Science</div>
-            <div>Computer Science - Web Development Track</div>
-            <p>GPA: 3.23</p>
+            <h3 class="mb-0"></h3>
+            <div class="subheading mb-3"></div>
+            <p></p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">August 2006 - May 2010</span>
+            <span class="text-primary"></span>
           </div>
         </div>
 
@@ -253,12 +252,23 @@
     
     console.log(profile.projects[0]["technologies"]);
     
-    document.querySelector("#education");
+    for(let school of profile.education) {
+      let educationClone = document.querySelector("#education div.template").cloneNode(true);
+      educationClone.classList.remove("template");
+      educationClone.querySelector("h3.mb-0").textContent = school.school_name;
+      educationClone.querySelector("div.mb-3").textContent = school.degree;
+      educationClone.querySelector("p").textContent = `GPA: ${school.gpa}`;
+      educationClone.querySelector("span.text-primary").textContent = "Expected: " + school.expectedGraduation;
+      document.querySelector("#education div.w-100").appendChild(educationClone);
+    }
+    
     for(let project of profile.projects) {
       let projectClone = document.querySelector("#projects div.template").cloneNode(true);
       projectClone.classList.remove("template");
       projectClone.querySelector("h3.mb-0").textContent = project.name;
-      projectClone.querySelector("div.subheading").textContent = project.repoURL;
+      projectClone.querySelector("a.subheading").href = project.repoURL;
+      projectClone.querySelector("a.subheading").textContent = project.repoURL;
+      projectClone.querySelector("a.subheading").target = "_blank";
       projectClone.querySelector("p").textContent = project.description;
       projectClone.querySelector("span.text-primary").textContent = project["date"];
       document.querySelector("#projects div.w-100").appendChild(projectClone);
