@@ -1,6 +1,29 @@
 let profile = {
   firstName: "Kaveesha",
   lastName: "Weerasiri",
+  experience: [
+    {
+      title: "Teaching Assistant for Program Design 1",
+      location: "Chicago, IL",
+      date: "January 2018 – December 2019",
+      details: 
+          '<ul>' 
+          + '<li>Helped students incorporate lists, dictionaries, strings, and loops in Python</li>' 
+          + '<li>Emphasized use of functions, concise variable names, and descriptive comments</li>'
+          + '<li>Showed how to use documentation from Python libraries and print statements to debug code</li>'
+          +'</ul>'
+    },
+    {
+      title: "Front-End Developer Intern",
+      location: "UIC, Professor Tanya Berger-Wolf",
+      date: "June 2018 – August 2018",
+      details: 
+          '<ul>' 
+          + '<li>Helped create an app using React Native that provides citizen scientists with information about endangered animals</li>' 
+          + '<li>Built different aspects of the app UI including the “follow and following pages” using JavaScript</li>'
+          +'</ul>'
+    }
+  ],
   education: [
     {
       school_name: "University of Illinois at Chicago",
@@ -31,5 +54,5 @@ let profile = {
      repoURL: "https://github.com/KaveeshaW/InvadersOfTheVoid",
      date: "Feburary 2020 - April 2020"
     }
-   ]
+  ]
 }
