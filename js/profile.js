@@ -9,11 +9,12 @@ let profile = {
   ],
   //add projects by adding more objects
   projects: [
-    {name: "Cornovirus Chart",
-     technologies: "HTML, CSS, JS, api from https://pomber.github.io/covid19/timeseries.json",
-     description: "A project that plots coronavirus data",
-     projectURL: "https://kaveeshaw.github.io/it202-project4/",
-     repoURL: "https://github.com/KaveeshaW/it202-project4",
+    {name: "Covid-19 PWA",
+     technologies: `HTML, CSS, JS, api from https://pomber.github.io/covid19/timeseries.json and
+     https://api.openweathermap.org/data/2.5/weather`,
+     description: "A project that plots coronavirus data and gets weather from your current location",
+     projectURL: "https://kaveeshaw.github.io/it202-big-project/",
+     repoURL: "https://github.com/KaveeshaW/it202-big-project",
      date: "March 2020 - April 2020"},
     {name: "Side Scrolling Game",
      technologies: "HTML, CSS, JS, Canvas",
