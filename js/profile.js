@@ -62,5 +62,14 @@ let profile = {
      repoURL: "https://github.com/KaveeshaW/it202-project3",
      date: "March 2020"
     },
+    {
+     name: "Mobile Radio Protocols",
+     technologies: "N/A",
+     course_name: "N/A",
+     description: "I learned high-level abstraction about how radios transmit messages through the air.",
+     projectURL: "https://kdweerasiritcrgp.weebly.com/",
+     repoURL: "N/A",
+     date: "January 2017 - May 2017"
+    },
   ]
 }
