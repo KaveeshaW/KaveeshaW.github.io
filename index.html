@@ -113,7 +113,9 @@
         <div class="template resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
             <h3 class="mb-0"></h3>
-            <a class="subheading mb-3"></a>
+            <a id="liveURL" class="subheading mb-3"></a>
+            <br>
+            <a id="repoURL" class="subheading mb-3"></a>
             <p></p>
           </div>
           <div class="resume-date text-md-right">
@@ -292,9 +294,12 @@
       let projectClone = document.querySelector("#projects div.template").cloneNode(true);
       projectClone.classList.remove("template");
       projectClone.querySelector("h3.mb-0").textContent = project.name;
-      projectClone.querySelector("a.subheading").href = project.repoURL;
-      projectClone.querySelector("a.subheading").textContent = project.repoURL;
-      projectClone.querySelector("a.subheading").target = "_blank";
+      projectClone.querySelector("#liveURL").href = project.projectURL;
+      projectClone.querySelector("#liveURL").textContent = project.projectURL;
+      projectClone.querySelector("#liveURL").target = "_blank";
+      projectClone.querySelector("#repoURL").href = project.repoURL;
+      projectClone.querySelector("#repoURL").textContent = project.repoURL;
+      projectClone.querySelector("#repoURL").target = "_blank";
       projectClone.querySelector("p").textContent = project.description;
       projectClone.querySelector("span.text-primary").textContent = project["date"];
       document.querySelector("#projects div.w-100").appendChild(projectClone);

@@ -39,27 +39,28 @@ let profile = {
      technologies: `HTML, CSS, JS, api from https://pomber.github.io/covid19/timeseries.json and
      https://api.openweathermap.org/data/2.5/weather`,
      course_name: "IT 202",
-     description: "A project that plots coronavirus data and gets weather from your current location",
+     description: "This project visualizes data for the coronavirus and displays the weather at your current location. It is a PWA using Dexie.js, your devices geolocation (if you allow it), Google Charts, and Material Components for the Web. API's are from https://pomber.github.io/covid19/timeseries.json and https://api.openweathermap.org/data/2.5/weather.",
      projectURL: "https://kaveeshaw.github.io/it202-big-project/",
      repoURL: "https://github.com/KaveeshaW/it202-big-project",
-     date: "March 2020 - April 2020"
+     date: "April 2020"
+    },
+    {
+     name: "Invaders Of The Void",
+     technologies: "C#, Unity",
+     course_name: "CS 440",
+     description: "A puzzle-platform game where a player traverses through space and then heads into a castle. Within the castle, the player faces different puzzle challenges and a boss at the end.",
+     projectURL: "https://docs.google.com/presentation/d/1M7LEUq141K1vqccc_RIqIHXfv5nk3ExODWBRMv8kpWc/edit#slide=id.p",
+     repoURL: "https://github.com/KaveeshaW/InvadersOfTheVoid",
+     date: "Feburary 2020 - April 2020"
     },
     {
      name: "Side Scrolling Game",
      technologies: "HTML, CSS, JS, Canvas",
      course_name: "IT 202",
-     description: "Tom and Jerry inspired",
+     description: "A game where you move the character up and down to try and touch the benefit character while avoiding the harm character.",
      projectURL: "https://kaveeshaw.github.io/it202-project3/",
      repoURL: "https://github.com/KaveeshaW/it202-project3",
      date: "March 2020"
     },
-    {
-     name: "Invaders Of The Void",
-     technologies: "C#, Unity",
-     description: "Player traverses through space, then a castle and faces different puzzle challenges as well as a boss",
-     projectURL: "https://docs.google.com/presentation/d/1M7LEUq141K1vqccc_RIqIHXfv5nk3ExODWBRMv8kpWc/edit#slide=id.g744df01c18_0_10",
-     repoURL: "https://github.com/KaveeshaW/InvadersOfTheVoid",
-     date: "Feburary 2020 - April 2020"
-    }
   ]
 }
