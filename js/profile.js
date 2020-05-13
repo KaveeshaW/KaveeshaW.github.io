@@ -64,12 +64,12 @@ let profile = {
     },
     {
      name: "Mobile Radio Protocols",
-     technologies: "N/A",
+     technologies: "React, HTML, JavaScript, CSS",
      course_name: "N/A",
      description: "I learned high-level abstraction about how radios transmit messages through the air.",
-     projectURL: "https://kdweerasiritcrgp.weebly.com/",
-     repoURL: "N/A",
-     date: "January 2017 - May 2017"
+     projectURL: "https://kaveeshaw.github.io/mobileRadioProtocolsReact/",
+     repoURL: "https://github.com/KaveeshaW/mobileRadioProtocolsReact",
+     date: "May 2020"
     },
   ]
 }
