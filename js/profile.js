@@ -36,7 +36,7 @@ let profile = {
   projects: [
     {
      name: "Covid-19 PWA",
-     technologies: `HTML, CSS, JS, api from https://pomber.github.io/covid19/timeseries.json and
+     technologies: `HTML, CSS, JS, APIs from https://pomber.github.io/covid19/timeseries.json and
      https://api.openweathermap.org/data/2.5/weather`,
      course_name: "IT 202",
      description: "This project visualizes data for the coronavirus and displays the weather at your current location. It is a PWA using Dexie.js, your devices geolocation (if you allow it), Google Charts, and Material Components for the Web. API's are from https://pomber.github.io/covid19/timeseries.json and https://api.openweathermap.org/data/2.5/weather.",
@@ -54,6 +54,15 @@ let profile = {
      date: "Feburary 2020 - April 2020"
     },
     {
+      name: "Mobile Radio Protocols",
+      technologies: "React, HTML, JavaScript, CSS",
+      course_name: "N/A",
+      description: "This project is a PWA using Reactjs. It focuses on what I learned about high-level abstraction of how radios transmit messages through the air.  It utilizes functional components, states, the react-router-dom, fragments, and hooks.",
+      projectURL: "https://kaveeshaw.github.io/mobileRadioProtocolsReact/",
+      repoURL: "https://github.com/KaveeshaW/mobileRadioProtocolsReact",
+      date: "May 2020"
+    },
+    {
      name: "Side Scrolling Game",
      technologies: "HTML, CSS, JS, Canvas",
      course_name: "IT 202",
@@ -61,15 +70,6 @@ let profile = {
      projectURL: "https://kaveeshaw.github.io/it202-project3/",
      repoURL: "https://github.com/KaveeshaW/it202-project3",
      date: "March 2020"
-    },
-    {
-     name: "Mobile Radio Protocols",
-     technologies: "React, HTML, JavaScript, CSS",
-     course_name: "N/A",
-     description: "I learned high-level abstraction about how radios transmit messages through the air.",
-     projectURL: "https://kaveeshaw.github.io/mobileRadioProtocolsReact/",
-     repoURL: "https://github.com/KaveeshaW/mobileRadioProtocolsReact",
-     date: "May 2020"
     },
   ]
 }
