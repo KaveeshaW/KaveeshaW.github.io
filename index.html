@@ -294,15 +294,15 @@
       let projectClone = document.querySelector("#projects div.template").cloneNode(true);
       projectClone.classList.remove("template");
       projectClone.querySelector("h3.mb-0").textContent = project.name;
+
       projectClone.querySelector("#liveURL").href = project.projectURL;
       projectClone.querySelector("#liveURL").textContent = project.projectURL;
       projectClone.querySelector("#liveURL").target = "_blank";
-      //the repo does not exist for the mobile radio protocols site... yet
-      if(project.repoURL != "N/A") {
-        projectClone.querySelector("#repoURL").href = project.repoURL;
-        projectClone.querySelector("#repoURL").textContent = project.repoURL;
-        projectClone.querySelector("#repoURL").target = "_blank";
-      }
+      
+      projectClone.querySelector("#repoURL").href = project.repoURL;
+      projectClone.querySelector("#repoURL").textContent = project.repoURL;
+      projectClone.querySelector("#repoURL").target = "_blank";
+      
       projectClone.querySelector("p").textContent = project.description;
       projectClone.querySelector("span.text-primary").textContent = project["date"];
       document.querySelector("#projects div.w-100").appendChild(projectClone);

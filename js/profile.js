@@ -66,8 +66,8 @@ let profile = {
       name: "The Unbreakable Safe",
       technologies: "Arduino, C",
       course_name: "CS 362",
-      description: "This project utilizes 3 arduinos. One arduino controls the LCD, IR reciever, and an outside buzzer. The second arduino handles the servo motor and the RGB Light. The third arduino handles the ultrasonic sensor, LEDs, buzzer, and button.", 
-      projectURL: "Not available at this time",
+      description: "This project utilizes 3 arduinos. One arduino controls the LCD, IR receiver, and an outside buzzer. The second arduino handles the servo motor and the RGB Light. The third arduino handles the ultrasonic sensor, LEDs, buzzer, and button.", 
+      projectURL: "https://youtu.be/fXRv_W06U_0",
       repoURL: "https://github.com/KaveeshaW/CS362Project",
       date: "Feburary 2019 - April 2019"
     },
