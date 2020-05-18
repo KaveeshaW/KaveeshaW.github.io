@@ -49,7 +49,7 @@ let profile = {
      technologies: "C#, Unity",
      course_name: "CS 440",
      description: "A puzzle-platform game where a player traverses through space and then heads into a castle. Within the castle, the player faces different puzzle challenges and a boss at the end.",
-     projectURL: "https://docs.google.com/presentation/d/1M7LEUq141K1vqccc_RIqIHXfv5nk3ExODWBRMv8kpWc/edit#slide=id.p",
+     projectURL: "https://kaveeshaw.github.io/InvadersOfTheVoid/",
      repoURL: "https://github.com/KaveeshaW/InvadersOfTheVoid",
      date: "Feburary 2020 - April 2020"
     },
