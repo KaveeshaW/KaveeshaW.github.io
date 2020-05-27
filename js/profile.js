@@ -3,6 +3,15 @@ let profile = {
   lastName: "Weerasiri",
   experience: [
     {
+      title: "Software Development Apprentice at Code Differently",
+      location: "Chicago, IL & Wilmington, DE",
+      date: "May 2020 –  Present",
+      details: 
+          '<ul>' 
+          + '<li>Improving my skills through hands on software projects and team collaboration</li>' 
+          +'</ul>'
+    },
+    {
       title: "Teaching Assistant for Program Design 1",
       location: "Chicago, IL",
       date: "January 2018 – December 2019",
