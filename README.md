@@ -1,1 +1,1 @@
-This is the site where I will show different projects that I have worked on
+This portfolio shows different projects that I have worked on
