@@ -116,6 +116,7 @@
             <a id="liveURL" class="subheading mb-3"></a>
             <br>
             <a id="repoURL" class="subheading mb-3"></a>
+            <div class="subheading mb-3"></div>
             <p></p>
           </div>
           <div class="resume-date text-md-right">
@@ -302,6 +303,8 @@
       projectClone.querySelector("#repoURL").href = project.repoURL;
       projectClone.querySelector("#repoURL").textContent = project.repoURL;
       projectClone.querySelector("#repoURL").target = "_blank";
+
+      projectClone.querySelector("div.subheading").textContent= project.technologies;
       
       projectClone.querySelector("p").textContent = project.description;
       projectClone.querySelector("span.text-primary").textContent = project["date"];

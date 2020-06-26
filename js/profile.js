@@ -46,8 +46,7 @@ let profile = {
   projects: [
     {
      name: "Covid-19 PWA",
-     technologies: `HTML, CSS, JS, APIs from https://pomber.github.io/covid19/timeseries.json and
-     https://api.openweathermap.org/data/2.5/weather`,
+     technologies: "HTML, CSS, JS",
      course_name: "IT 202",
      description: "This project visualizes data for the coronavirus and displays the weather at your current location. It is a PWA using Dexie.js, your devices geolocation (if you allow it), Google Charts, and Material Components for the Web. API's are from https://pomber.github.io/covid19/timeseries.json and https://api.openweathermap.org/data/2.5/weather.",
      projectURL: "https://kaveeshaw.github.io/it202-big-project/",
