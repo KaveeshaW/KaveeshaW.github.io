@@ -9,6 +9,7 @@ let profile = {
       details: 
           '<ul>' 
           + '<li>Improving my skills through hands on software projects and team collaboration</li>' 
+          + '<li>Developing in Java, creating UMLs, and adhering to test-driven development protocols</li>' 
           +'</ul>'
     },
     {
