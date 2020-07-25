@@ -153,52 +153,63 @@
       <div class="w-100">
         <h2 class="mb-5">Skills</h2>
 
-        <div class="subheading mb-3">Programming Languages</div>
+        <div class="subheading mb-3">Programming Languages:</div>
         
         <div class="subheading mb-3">Proficient:</div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
-            <i class="fab fa-java"></i>
+            <i>Java</i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-python"></i>
+            <i>JavaFX</i>
           </li>
           <li class="list-inline-item">
             <i class="fab fa-js-square"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-python"></i>
           </li>
           <li class="list-inline-item">
             <i class="fab fa-cuttlefish">#</i>
           </li>
         </ul>
         <div class="subheading mb-3">Familiar:</div>
+          <ul class="list-inline dev-icons">
+            <li class="list-inline-item">
+              <i class="fab fa-html5"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-css3-alt"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-cuttlefish">++</i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-cuttlefish"></i>
+            </li>
+            <li class="list-inline-item">
+              <i>MySQL</i>
+            </li>
+            <li class="list-inline-item">
+              <i>SQL</i>
+            </li>
+            <li class="list-inline-item">
+              <i>F#</i>
+            </li>
+          </ul>
+        
+        <div class="subheading mb-3">Version Control:</div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
-            <i class="fab fa-cuttlefish">++</i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-cuttlefish"></i>
-          </li>
-          <li class="list-inline-item">
-            <i>MySQL</i>
-          </li>
-          <li class="list-inline-item">
-            <i>SQL</i>
-          </li>
-          <li class="list-inline-item">
-            <i>F#</i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-git"></i>
           </li>
         </ul>
-        
+
         <div class="subheading mb-3">Libraries:</div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
-            <i class="fab fa-react"> Native</i>
+            <i>React, </i>
+            <i>React Native</i>
           </li>
         </ul>
         
@@ -206,18 +217,50 @@
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
             <i class="fab fa-bootstrap"></i>
+            <i>Scrum</i>
           </li>
         </ul>
-        
-        <p>NOTE: Some icons do not exist in Font Awesome so I had to create my own version.</p>
 
-        <div class="subheading mb-3">Workflow</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Agile Development</li>
-        </ul>
-      </div>
+        <div class="subheading mb-3">Soft Skills:</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Teamwork
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Collaboration
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Conscientiousness
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Problem Solving
+            </li>
+          </ul>
+        <br>
+        <div class="subheading mb-3">Methodologies:</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Agile
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Test Driven Development
+            </li>
+          </ul>
+        <br>
+        <div class="subheading mb-3">Game Engines:</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Unity
+            </li>
+          </ul>
+        </div>
     </section>
 
     <hr class="m-0">
@@ -306,7 +349,8 @@
 
       projectClone.querySelector("div.subheading").textContent= project.technologies;
       
-      projectClone.querySelector("p").textContent = project.description;
+      let doc = parser.parseFromString(project.description, "text/html");
+      projectClone.querySelector("p").appendChild(doc.body.querySelector("ul"));
       projectClone.querySelector("span.text-primary").textContent = project["date"];
       document.querySelector("#projects div.w-100").appendChild(projectClone);
     }

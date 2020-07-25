@@ -18,9 +18,10 @@ let profile = {
       date: "January 2018 – December 2019",
       details: 
           '<ul>' 
-          + '<li>Helped students incorporate lists, dictionaries, strings, and loops in Python</li>' 
+          + '<li>Worked closely with professor to help students identify issues and develop appropriate solutions</li>'
+          + '<li>Assisted students with incorporating lists, dictionaries, strings, and loops in Python</li>' 
           + '<li>Emphasized use of functions, concise variable names, and descriptive comments</li>'
-          + '<li>Showed how to use documentation from Python libraries and print statements to debug code</li>'
+          + '<li>Instructed students on how to use documentation from Python libraries and print statements to debug code</li>'
           +'</ul>'
     },
     {
@@ -29,8 +30,9 @@ let profile = {
       date: "June 2018 – August 2018",
       details: 
           '<ul>' 
-          + '<li>Helped create an app using React Native that provides citizen scientists with information about endangered animals</li>' 
+          + '<li>Helped create an endangered animals app using React Native to provide citizen scientists with vital information</li>' 
           + '<li>Built different aspects of the app UI including the “follow and following pages” using JavaScript</li>'
+          + '<li>Utilized a HashMap to store the user data and update the pages based on who was signed in</li>'
           +'</ul>'
     }
   ],
@@ -48,7 +50,11 @@ let profile = {
      name: "Covid-19 PWA",
      technologies: "HTML, CSS, JS",
      course_name: "IT 202",
-     description: "This project visualizes data for the coronavirus and displays the weather at your current location. It is a PWA using Dexie.js, your devices geolocation (if you allow it), Google Charts, and Material Components for the Web. API's are from https://pomber.github.io/covid19/timeseries.json and https://api.openweathermap.org/data/2.5/weather.",
+     description: 
+      '<ul>' 
+      + '<li>Visualizes up to date data about the corona virus and displays the weather at your current location</li>'
+      +	'<li>Utilizes Dexie.js, geolocation, Google Charts, Material Components for the Web, and API calls</li>'
+      + '</ul>',
      projectURL: "https://kaveeshaw.github.io/it202-big-project/",
      repoURL: "https://github.com/KaveeshaW/it202-big-project",
      date: "April 2020"
@@ -57,7 +63,13 @@ let profile = {
      name: "Invaders Of The Void",
      technologies: "C#, Unity",
      course_name: "CS 440",
-     description: "A puzzle-platform game where a player traverses through space and then heads into a castle. Within the castle, the player faces different puzzle challenges and a boss at the end.",
+     description: 
+     '<ul>' 
+      + '<li>Created a two-phase boss battle for a game that a previous group prototyped using Unity and C#</li>' 
+      + '<li>Implemented bullet hit detection, health bars, enemy bats using the A* pathfinding library, moving platforms, and more</li>'
+      + '<li>Incorporated reusable scripts and game objects that other team members developed into my scene</li>'
+      + '<li>Collaborated with a team using agile development, Git, and iceScrum to communicate and execute the project</li>'
+      + '</ul>',
      projectURL: "https://kaveeshaw.github.io/InvadersOfTheVoid/",
      repoURL: "https://github.com/KaveeshaW/InvadersOfTheVoid",
      date: "Feburary 2020 - April 2020"
@@ -66,7 +78,12 @@ let profile = {
       name: "Mobile Radio Protocols",
       technologies: "React, HTML, JavaScript, CSS",
       course_name: "N/A",
-      description: "This project is a PWA using Reactjs. It focuses on what I learned about high-level abstraction of how radios transmit messages through the air.  It utilizes functional components, states, the react-router-dom, fragments, and hooks.",
+      description: 
+      '<ul>' 
+      + '<li>Modernized personal project that was formerly hosted by Weebly using React, HTML, CSS, and JavaScript</li>' 
+      + '<li>Utilized functional components, states, react-router-dom, fragments, and hooks from React</li>'
+      + '<li>Focused on high level abstraction about how radios transmit messages through the air</li>'
+      + '</ul>',
       projectURL: "https://kaveeshaw.github.io/mobileRadioProtocolsReact/",
       repoURL: "https://github.com/KaveeshaW/mobileRadioProtocolsReact",
       date: "May 2020"
@@ -75,7 +92,13 @@ let profile = {
       name: "The Unbreakable Safe",
       technologies: "Arduino, C",
       course_name: "CS 362",
-      description: "This project utilizes 3 arduinos. One arduino controls the LCD, IR receiver, and an outside buzzer. The second arduino handles the servo motor and the RGB Light. The third arduino handles the ultrasonic sensor, LEDs, buzzer, and button.", 
+      description: 
+      '<ul>' 
+      + '<li>Collaborated with a team to create a two factor authentication safe </li>' 
+      + '<li>Tracked hand movement using an ultrasonic sensor that lights up LEDs if hand is close</li>'
+      + '<li>Set up a buzzing sound that turns off when the user finds the hidden button</li>'
+      + '<li>Utilized Arduinos, breadboards, wires, and external device</li>'
+      + '</ul>',
       projectURL: "https://youtu.be/fXRv_W06U_0",
       repoURL: "https://github.com/KaveeshaW/CS362Project",
       date: "Feburary 2019 - April 2019"
@@ -84,7 +107,10 @@ let profile = {
      name: "Side Scrolling Game",
      technologies: "HTML, CSS, JS, Canvas",
      course_name: "IT 202",
-     description: "A game where you move the character up and down to try and touch the benefit character while avoiding the harm character.",
+     description: 
+     '<ul>' 
+      + '<li>Developed a side scrolling game that involves benefit and harm characters</li>' 
+      + '</ul>',
      projectURL: "https://kaveeshaw.github.io/it202-project3/",
      repoURL: "https://github.com/KaveeshaW/it202-project3",
      date: "March 2020"
