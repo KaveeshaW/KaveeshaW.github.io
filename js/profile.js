@@ -36,7 +36,7 @@ let profile = {
           '<ul>' 
           + '<li>Helped create an endangered animals app using React Native to provide citizen scientists with vital information</li>' 
           + '<li>Built different aspects of the app UI including the “follow and following pages” using JavaScript</li>'
-          + '<li>Utilized a HashMap to store the user data and update the pages based on who was signed in</li>'
+          + '<li>Applied a HashMap to store the user data and update the pages based on who was signed in</li>'
           +'</ul>'
     }
   ],
@@ -51,13 +51,13 @@ let profile = {
   //add projects by adding more objects
   projects: [
     {
-     name: "Covid-19 PWA",
+     name: "Coronavirus PWA",
      technologies: "HTML, CSS, JS",
      course_name: "IT 202",
      description: 
       '<ul>' 
-      + '<li>Visualizes up to date data about the corona virus and displays the weather at your current location</li>'
-      +	'<li>Utilizes Dexie.js, geolocation, Google Charts, Material Components for the Web, and API calls</li>'
+      + '<li>Visualized up to date data about the coronavirus and displayed the weather at your current location </li>'
+      + '<li>Utilized Dexie.js, geolocation, Google Charts, Material Components for the Web, and API calls<li>'
       + '</ul>',
      projectURL: "https://kaveeshaw.github.io/it202-big-project/",
      repoURL: "https://github.com/KaveeshaW/it202-big-project",
