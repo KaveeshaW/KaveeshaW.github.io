@@ -101,7 +101,7 @@ let profile = {
       + '<li>Collaborated with a team to create a two factor authentication safe </li>' 
       + '<li>Tracked hand movement using an ultrasonic sensor that lights up LEDs if hand is close</li>'
       + '<li>Set up a buzzing sound that turns off when the user finds the hidden button</li>'
-      + '<li>Utilized Arduinos, breadboards, wires, and external device</li>'
+      + '<li>Utilized Arduinos, breadboards, wires, and an external device</li>'
       + '</ul>',
       projectURL: "https://youtu.be/fXRv_W06U_0",
       repoURL: "https://github.com/KaveeshaW/CS362Project",
