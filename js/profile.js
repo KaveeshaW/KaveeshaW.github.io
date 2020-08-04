@@ -10,10 +10,10 @@ let profile = {
           '<ul>' 
           + '<li>Improving my skills through hands on software projects and team collaboration</li>' 
           + '<li>Developing in Java, creating UMLs, and adhering to test-driven development protocols</li>' 
-          + '<li>	Created a terminal based casino application in Java using agile methodology </li>'
-        	+ '<li>	Implemented the Go Fish game and assisted with creating the Card, Die, Deck, Guess the Card, and Suit classes </li>'
-          + '<li>	Continuously updated an UML as the project developed to keep team members informed </li>'
-          + '<li>	Performed unit testing using JUnit4 and the @Before and @Test annotations to set up and test functionality </li>'
+          + '<li>Designed a terminal based casino application in Java using agile methodology </li>'
+        	+ '<li>Implemented the Go Fish game and assisted with creating the Card, Die, Deck, Guess the Card, and Suit classes </li>'
+          + '<li>Continuously updated an UML as the project developed to keep team members informed </li>'
+          + '<li>Performed unit testing using JUnit4 and the @Before and @Test annotations to set up and test functionality </li>'
           +'</ul>'
     },
     {
@@ -101,7 +101,7 @@ let profile = {
       + '<li>Collaborated with a team to create a two factor authentication safe </li>' 
       + '<li>Tracked hand movement using an ultrasonic sensor that lights up LEDs if hand is close</li>'
       + '<li>Set up a buzzing sound that turns off when the user finds the hidden button</li>'
-      + '<li>Utilized Arduinos, breadboards, wires, and an external device</li>'
+      + '<li>Built the project using Arduinos, breadboards, wires, and an external device</li>'
       + '</ul>',
       projectURL: "https://youtu.be/fXRv_W06U_0",
       repoURL: "https://github.com/KaveeshaW/CS362Project",

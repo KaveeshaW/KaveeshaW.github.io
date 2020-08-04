@@ -368,6 +368,7 @@
     //updates the project section
     for(let project of profile.projects) {
       let projectClone = document.querySelector("#projects div.template").cloneNode(true);
+      document.querySelector("#projects div.template").style.display = "none";
       projectClone.classList.remove("template");
       projectClone.querySelector("h3.mb-0").textContent = project.name;
 
