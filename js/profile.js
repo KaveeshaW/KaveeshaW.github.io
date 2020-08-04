@@ -79,7 +79,7 @@ let profile = {
      date: "Feburary 2020 - April 2020"
     },
     {
-      name: "Mobile Radio Protocols",
+      name: "Mobile Radio Protocols React",
       technologies: "React, HTML, JavaScript, CSS",
       course_name: "N/A",
       description: 
