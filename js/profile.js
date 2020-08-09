@@ -10,10 +10,6 @@ let profile = {
           '<ul>' 
           + '<li>Improving my skills through hands on software projects and team collaboration</li>' 
           + '<li>Developing in Java, creating UMLs, and adhering to test-driven development protocols</li>' 
-          + '<li>Designed a terminal based casino application in Java using agile methodology </li>'
-        	+ '<li>Implemented the Go Fish game and assisted with creating the Card, Die, Deck, Guess the Card, and Suit classes </li>'
-          + '<li>Continuously updated an UML as the project developed to keep team members informed </li>'
-          + '<li>Performed unit testing using JUnit4 and the @Before and @Test annotations to set up and test functionality </li>'
           +'</ul>'
     },
     {
