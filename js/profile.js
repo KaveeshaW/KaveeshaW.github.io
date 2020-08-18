@@ -3,34 +3,33 @@ let profile = {
   lastName: "Weerasiri",
   experience: [
     {
-      title: "Software Development Apprentice at Code Differently",
-      location: "Wilmington, DE",
-      date: "May 2020 –  Present",
-      details: 
-          '<ul>' 
-          + '<li>Improving my skills through hands on software projects and team collaboration</li>' 
-          + '<li>Developing in Java, creating UMLs, and adhering to test-driven development protocols</li>' 
-          +'</ul>'
-    },
-    {
-      title: "Teaching Assistant for Program Design 1",
-      location: "Chicago, IL",
+      title: "Program Design 1 Teaching Assistant",
+      location: "UIC, Chicago, IL",
       date: "January 2018 – December 2019",
       details: 
           '<ul>' 
-          + '<li>Worked closely with professor to help students identify issues and develop appropriate solutions</li>'
           + '<li>Assisted students with incorporating lists, dictionaries, strings, and loops in Python</li>' 
           + '<li>Emphasized use of functions, concise variable names, and descriptive comments</li>'
           + '<li>Instructed students on how to use documentation from Python libraries and print statements to debug code</li>'
           +'</ul>'
     },
     {
+      title: "Software Development Apprentice",
+      location: "Code Differently, Wilmington, DE",
+      date: "June 2020 – August 2020",
+      details: 
+          '<ul>' 
+          + '<li>Improved skills through hands on software projects and team collaboration</li>' 
+          + '<li>Developed in Java, created UMLs, and adhered to test-driven development protocols</li>' 
+          +'</ul>'
+    },
+    {
       title: "Front-End Developer Intern",
-      location: "UIC, Professor Tanya Berger-Wolf",
+      location: "UIC, Chicago IL",
       date: "June 2018 – August 2018",
       details: 
           '<ul>' 
-          + '<li>Helped create an endangered animals app using React Native to provide citizen scientists with vital information</li>' 
+          + '<li>Helped create an endangered animal’s app using React Native to provide citizen scientists with vital information</li>' 
           + '<li>Built different aspects of the app UI including the “follow and following pages” using JavaScript</li>'
           + '<li>Applied a HashMap to store the user data and update the pages based on who was signed in</li>'
           +'</ul>'
@@ -48,12 +47,12 @@ let profile = {
   projects: [
     {
      name: "Coronavirus PWA",
-     technologies: "HTML, CSS, JS",
-     course_name: "IT 202",
+     technologies: "HTML, CSS, JavaScript",
+     course_name: "Web and Multimedia Technology",
      description: 
       '<ul>' 
-      + '<li>Visualized up to date data about the coronavirus and displayed the weather at your current location </li>'
-      + '<li>Utilized Dexie.js, geolocation, Google Charts, Material Components for the Web, and API calls<li>'
+      + '<li>Visualized up to date data about the coronavirus and displayed the weather at your current location</li>'
+      + '<li>Utilized Dexie.js, geolocation, Google Charts, Material Components for the Web, and API calls</li>'
       + '</ul>',
      projectURL: "https://kaveeshaw.github.io/it202-big-project/",
      repoURL: "https://github.com/KaveeshaW/it202-big-project",
@@ -62,11 +61,11 @@ let profile = {
     {
      name: "Invaders Of The Void",
      technologies: "C#, Unity",
-     course_name: "CS 440",
+     course_name: "Software Engineering",
      description: 
      '<ul>' 
       + '<li>Created a two-phase boss battle for a game that a previous group prototyped using Unity and C#</li>' 
-      + '<li>Implemented bullet hit detection, health bars, enemy bats using the A* pathfinding library, moving platforms, and more</li>'
+      + '<li>Implemented bullet hit detection, health bars, enemy bats, moving platforms, and more</li>'
       + '<li>Incorporated reusable scripts and game objects that other team members developed into my scene</li>'
       + '<li>Collaborated with a team using agile development, Git, and iceScrum to communicate and execute the project</li>'
       + '</ul>',
@@ -81,7 +80,7 @@ let profile = {
       description: 
       '<ul>' 
       + '<li>Modernized personal project that was formerly hosted by Weebly using React, HTML, CSS, and JavaScript</li>' 
-      + '<li>Utilized functional components, states, react-router-dom, fragments, and hooks from React</li>'
+      + '<li>Utilized functional components, states, react-router-dom, and fragments from React</li>'
       + '<li>Focused on high level abstraction about how radios transmit messages through the air</li>'
       + '</ul>',
       projectURL: "https://kaveeshaw.github.io/mobileRadioProtocolsReact/",
@@ -91,10 +90,10 @@ let profile = {
     {
       name: "The Unbreakable Safe",
       technologies: "Arduino, C",
-      course_name: "CS 362",
+      course_name: "Computer Design",
       description: 
       '<ul>' 
-      + '<li>Collaborated with a team to create a two factor authentication safe </li>' 
+      + '<li>Collaborated with a team to create a two factor authentication safe</li>' 
       + '<li>Tracked hand movement using an ultrasonic sensor that lights up LEDs if hand is close</li>'
       + '<li>Set up a buzzing sound that turns off when the user finds the hidden button</li>'
       + '<li>Built the project using Arduinos, breadboards, wires, and an external device</li>'
@@ -105,11 +104,11 @@ let profile = {
     },
     {
      name: "Side Scrolling Game",
-     technologies: "HTML, CSS, JS, Canvas",
-     course_name: "IT 202",
+     technologies: "HTML, CSS, JavaScript, Canvas",
+     course_name: "Web and Multimedia Technology",
      description: 
      '<ul>' 
-      + '<li>Developed a side scrolling game that involves benefit and harm characters</li>' 
+      + '<li>Developed a side scrolling game based off Tom and Jerry that involves benefit and harm characters</li>' 
       + '</ul>',
      projectURL: "https://kaveeshaw.github.io/it202-project3/",
      repoURL: "https://github.com/KaveeshaW/it202-project3",
