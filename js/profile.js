@@ -1,7 +1,18 @@
 let profile = {
   firstName: "Kaveesha",
   lastName: "Weerasiri",
-  experience: [
+  teaching_experience: [
+    {
+      title: "Software Design Teaching Assistant",
+      location: "UIC, Chicago, IL",
+      date: "August 2020 - Present",
+      details: 
+          '<ul>' 
+          + '<li>nstructing students in Java and object oriented programming</li>' 
+          + '<li>Providing insights into test driven development and UML design</li>'
+          + '<li>Debugging student programs and clarifying questions regarding multithreaded GUI applications</li>'
+          +'</ul>'
+    },
     {
       title: "Program Design 1 Teaching Assistant",
       location: "UIC, Chicago, IL",
@@ -12,7 +23,9 @@ let profile = {
           + '<li>Emphasized use of functions, concise variable names, and descriptive comments</li>'
           + '<li>Instructed students on how to use documentation from Python libraries and print statements to debug code</li>'
           +'</ul>'
-    },
+    }
+  ],
+  internship_experience: [
     {
       title: "Software Development Apprentice",
       location: "Code Differently, Wilmington, DE",

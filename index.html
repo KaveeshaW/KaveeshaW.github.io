@@ -41,7 +41,10 @@
           <a class="nav-link js-scroll-trigger" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          <a class="nav-link js-scroll-trigger" href="#teaching_experience">Teaching Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#internship_experience">Internship Experience</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
@@ -86,9 +89,28 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="teaching_experience">
       <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
+        <h2 class="mb-5">Teaching Experience</h2>
+
+        <div class="template resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0"></h3>
+            <div class="subheading mb-3"></div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary"></span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="internship_experience">
+      <div class="w-100">
+        <h2 class="mb-5">Internship Experience</h2>
 
         <div class="template resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
@@ -350,15 +372,26 @@
     document.querySelector("#about h1 #firstName").textContent = profile["firstName"];
     document.querySelector("#about h1 .text-primary").textContent = profile["lastName"];
     
-    for(let experience of profile.experience) {
-      let experienceClone = document.querySelector("#experience div.template").cloneNode(true);
-      experienceClone.classList.remove("template");
-      experienceClone.querySelector("h3.mb-0").textContent = experience.title;
-      experienceClone.querySelector("div.mb-3").textContent = experience.location;
+    for(let experience of profile.teaching_experience) {
+      let teaching_experience_clone = document.querySelector("#teaching_experience div.template").cloneNode(true);
+      teaching_experience_clone.classList.remove("template");
+      teaching_experience_clone.querySelector("h3.mb-0").textContent = experience.title;
+      teaching_experience_clone.querySelector("div.mb-3").textContent = experience.location;
       let doc = parser.parseFromString(experience.details, "text/html");
-      experienceClone.querySelector("div.resume-content").appendChild(doc.body.querySelector("ul"));
-      experienceClone.querySelector("span.text-primary").textContent = experience.date;
-      document.querySelector("#experience div.w-100").appendChild(experienceClone);
+      teaching_experience_clone.querySelector("div.resume-content").appendChild(doc.body.querySelector("ul"));
+      teaching_experience_clone.querySelector("span.text-primary").textContent = experience.date;
+      document.querySelector("#teaching_experience div.w-100").appendChild(teaching_experience_clone);
+    }
+
+    for(let experience of profile.internship_experience) {
+      let internship_experience_clone = document.querySelector("#internship_experience div.template").cloneNode(true);
+      internship_experience_clone.classList.remove("template");
+      internship_experience_clone.querySelector("h3.mb-0").textContent = experience.title;
+      internship_experience_clone.querySelector("div.mb-3").textContent = experience.location;
+      let doc = parser.parseFromString(experience.details, "text/html");
+      internship_experience_clone.querySelector("div.resume-content").appendChild(doc.body.querySelector("ul"));
+      internship_experience_clone.querySelector("span.text-primary").textContent = experience.date;
+      document.querySelector("#internship_experience div.w-100").appendChild(internship_experience_clone);
     }
     
     
