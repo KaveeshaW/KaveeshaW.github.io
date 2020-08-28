@@ -8,7 +8,7 @@ let profile = {
       date: "August 2020 - Present",
       details: 
           '<ul>' 
-          + '<li>nstructing students in Java and object oriented programming</li>' 
+          + '<li>Instructing students in Java and object oriented programming</li>' 
           + '<li>Providing insights into test driven development and UML design</li>'
           + '<li>Debugging student programs and clarifying questions regarding multithreaded GUI applications</li>'
           +'</ul>'
@@ -32,8 +32,9 @@ let profile = {
       date: "June 2020 – August 2020",
       details: 
           '<ul>' 
-          + '<li>Improved skills through hands on software projects and team collaboration</li>' 
-          + '<li>Developed in Java, created UMLs, and adhered to test-driven development protocols</li>' 
+          + '<li>Selected as 1 of 44 Code Differently Apprentice Program participants from over 500 applicants</li>' 
+          + '<li>Improved skills through hands on software projects, team collaboration, and professional development</li>' 
+          + '<li>Developed in Java, adhered to test driven development, and implemented object oriented design</li>'
           +'</ul>'
     },
     {
