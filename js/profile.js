@@ -32,7 +32,7 @@ let profile = {
       date: "June 2020 – August 2020",
       details: 
           '<ul>' 
-          + '<li>Selected as 1 of 44 Code Differently Apprentice Program participants from over 500 applicants</li>' 
+          + '<li>Selected as one of 44 Code Differently Apprentice Program participants from over 500 applicants</li>' 
           + '<li>Improved skills through hands on software projects, team collaboration, and professional development</li>' 
           + '<li>Developed in Java, adhered to test driven development, and implemented object oriented design</li>'
           +'</ul>'
