@@ -33,7 +33,7 @@ let profile = {
       details: 
           '<ul>' 
           + '<li>Selected as one of 44 Code Differently Apprentice Program participants from over 500 applicants</li>' 
-          + '<li>Improved skills through hands on software projects, team collaboration, and professional development</li>' 
+          + '<li>Improved skills through 90 hours a week of hands on software projects and team collaboration</li>' 
           + '<li>Developed in Java, adhered to test driven development, and implemented object oriented design</li>'
           +'</ul>'
     },
