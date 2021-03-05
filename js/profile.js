@@ -65,14 +65,12 @@ let profile = {
       course_name: "User Interface Design and Programming",
       description:
         "<ul>" +
-        "<li>Focuses on helping middle school and high school students with online learning</li>" +
-        "<li>Interviewed middle school and high school students to see what problems they have</li>" +
-        "<li>created sketches, designed a prototype using AdobeXD, and then created a working code prototype that my group tested with the target users</li>" +
-        "<li>Using that feedback, we refactored the website</li>" +
+        "<li>Designed an web application to help middle school and high school students transition to online learning</li>" +
+        "<li>Implemented the navigation for the app and the Q & A section</li>" +
         "</ul>",
       projectURL: "https://kaveeshaw.github.io/connectnow/",
       repoURL: "https://github.com/KaveeshaW/ConnectNow",
-      date: "August 2020 - December 2020",
+      date: "November 2020",
     },
     {
       name: "Coronavirus PWA",
