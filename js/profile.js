@@ -68,7 +68,7 @@ let profile = {
         "<li>Designed an web application to help middle school and high school students transition to online learning</li>" +
         "<li>Implemented the navigation for the app and the Q & A section</li>" +
         "</ul>",
-      projectURL: "https://kaveeshaw.github.io/connectnow/",
+      projectURL: "https://kaveeshaw.github.io/ConnectNow/",
       repoURL: "https://github.com/KaveeshaW/ConnectNow",
       date: "November 2020",
     },
