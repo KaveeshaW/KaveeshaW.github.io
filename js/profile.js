@@ -70,7 +70,7 @@ let profile = {
         "<li>created sketches, designed a prototype using AdobeXD, and then created a working code prototype that my group tested with the target users</li>" +
         "<li>Using that feedback, we refactored the website</li>" +
         "</ul>",
-      projectURL: "https://kaveeshaw.github.io/connectnow/",
+      projectURL: "https://kaveeshaw.github.io/ConnectNow/",
       repoURL: "https://github.com/KaveeshaW/ConnectNow",
       date: "August 2020 - December 2020",
     },
